@@ -6,6 +6,7 @@
 
 #info, #navigation, #examples {
   position: fixed;
+  height: 100%;
 }
 #photo {
   min-width: auto;
@@ -23,8 +24,6 @@
   background-image: url(../img/3-fon-dlya-sayta.png);
   font-family: b52;
   font-weight: 700;
-  width: 40%;
-  height: 100%;
 }
 /* #info h1{
   background-color: black;
@@ -38,15 +37,13 @@
 #navigation{
   background-color: black;
   width: 20%;
-  height: 100%;
-  left: 40%;
-  right: 40%;
+}
+#btns button{
+  cursor: default;
 }
 #examples {
   background-image: url(../img/17-fon-dlya-sayta.png);
-  width: 40%;
-  height: 100%;
-  right: 0%;
+  right: 0;
 }
 .ex_links img{
   background-size: contain;
@@ -54,4 +51,23 @@
   max-width: 300px;
   max-height: 150px;
   margin:  15px;
+}
+.normal_side{
+  width: 40%;
+}
+.wide_side {
+  width: 80%;
+}
+.hide_side {
+  width: 0;
+}
+.normal_central {
+  left: 40%;
+  right: 40%;
+}
+.right_central {
+  right: 0;
+}
+.left_central {
+  left: 0;
 }
